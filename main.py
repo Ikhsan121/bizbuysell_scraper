@@ -1,9 +1,5 @@
-import csv
-import requests
-from bs4 import BeautifulSoup
-from scraper.web_scraper import initialize_driver, spider
+
+from scraper.web_scraper import bs4scraper_playwright
 
 if __name__ == "__main__":
-    driver = initialize_driver()
-    spider(driver)
-    driver.quit()
+    bs4scraper_playwright("https://www.bizbuysell.com/businesses-for-sale/?q=ZGxhPTM%3D")
