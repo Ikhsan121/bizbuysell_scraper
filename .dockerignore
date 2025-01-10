@@ -1,0 +1,33 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore CSV output files
+*.csv
+
+# Ignore logs
+*.log
+
+# Ignore Docker-related files (optional, as they are usually needed)
+Dockerfile
+docker-compose.yml
+
+# Ignore version control files and folders
+.git/
+.gitignore
+
+# Ignore any system-specific files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~

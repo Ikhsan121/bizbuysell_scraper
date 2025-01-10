@@ -1,5 +1,4 @@
-
-from scraper.web_scraper import bs4scraper_playwright
+from scraper.web_scraper import  scraping_process
 
 if __name__ == "__main__":
-    bs4scraper_playwright("https://www.bizbuysell.com/businesses-for-sale/?q=ZGxhPTM%3D")
+    scraping_process()
